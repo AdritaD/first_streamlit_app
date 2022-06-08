@@ -52,7 +52,7 @@ except URLError as e:
   streamlit.error()
                     
 # don't run anything past here while we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 
 # query trial metadata
 streamlit.header("The fruit_load_list contains:")
